@@ -90,13 +90,14 @@ nav {
 main {
     /* Make space so footer is pushed down */
     flex: 1 0 auto;
-    margin-top: 136px;
+    margin-top: 102px;
 }
 
 #home>h2 {
     text-align: center;
     margin: 0 5px 0 5px;
     font-size: 130%;
+    padding-top: 1rem;
 }
 
 #w3-image {
@@ -120,7 +121,7 @@ main {
     background-color: #A37850;
     border: none;
     color: #ffffff;
-    padding: 0.8rem 1.6rem;
+    padding: 0.6rem 1.2rem;
     font-size: 0.8rem;
     text-decoration: none;
     text-align: center;
@@ -194,6 +195,10 @@ main {
         line-height: 60px;
         margin: 0 0.5rem;
     }
+    /* Main */
+    main {
+        margin-top: 136px;
+}
 }
 
 /* Media query: laptops and desktops (992px and up) */
