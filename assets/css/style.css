@@ -102,12 +102,20 @@ main {
     flex: 1 0 auto;
     margin-top: 102px;
 }
-
+#color-p-home {
+    background-color: #d8e1e73c;
+    margin: 1.2rem;
+    border-radius: 2px;
+}
+#pos-color-home {
+    padding: 8px 5px;
+}
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
     width: auto;
     height: 65vw;
     margin: 1.2rem;
+    border-radius: 2px;
 }
 .read-more-button {
     display: flex;
@@ -124,12 +132,54 @@ main {
     text-align: center;
     margin: 1rem;
     border-radius: 2px;
-    cursor: pointer;
-
-
-    
+    cursor: pointer;  
+}
+/* About page */
+#h2-about {
+    margin-bottom: 1.2rem;
+}
+#about-image1 {
+    background: url(../images/lotushands.jpg) no-repeat center/cover;
+    width: auto;
+    height: 65vw;
+    margin: 1.2rem;
+    border-radius: 2%;
+}
+#color-p1-about {
+    background-color: #d8e1e73c;
+    margin: 1.2rem;
+    border-radius: 2px;
+}
+#pos-color-p1-about {
+    padding: 8px 5px;
+}
+#color-p2-about {
+    background-color: #d8e1e73c;
+    margin: 1.2rem;
+    border-radius: 2px;
 }
 
+#pos-color-p2-about {
+    padding: 8px 5px;
+}
+#color-p3-about {
+    background-color: #d8e1e73c;
+    margin: 1.2rem;
+    border-radius: 2px;
+}
+
+#pos-color-p3-about {
+    padding: 8px 5px;
+}
+#color-p4-about {
+    background-color: #d8e1e73c;
+    margin: 1.2rem;
+    border-radius: 2px;
+}
+
+#pos-color-p4-about {
+    padding: 8px 5px;
+}
 
 /* Footer */
 #footer-bar {
