@@ -149,6 +149,9 @@ main {
 .stack-top {
     flex-direction: column;
 }
+#footer-p {
+    text-align: center;
+}
 
 .stack-bottom {
     display: flex;
