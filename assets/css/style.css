@@ -111,6 +111,25 @@ main {
     padding: 0 20px;
     font-size: 90%;
 }
+.read-more-button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+#read-more-button {
+    background-color: #A37850;
+    border: none;
+    color: #ffffff;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 2px;
+
+
+    
+}
 
 
 /* Footer */
