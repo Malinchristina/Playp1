@@ -20,7 +20,17 @@ body {
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #A37850;
+    text-align: center;
+    margin: 0 5px 0 5px;
+    font-size: 130%;
+    padding-top: 1rem;
 }
+p {
+    text-align: left;
+    padding: 0 20px;
+    font-size: 90%;
+}
+
 
 /* Header */
 header {
@@ -93,24 +103,11 @@ main {
     margin-top: 102px;
 }
 
-#home>h2 {
-    text-align: center;
-    margin: 0 5px 0 5px;
-    font-size: 130%;
-    padding-top: 1rem;
-}
-
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
     width: auto;
     height: 65vw;
     margin: 1.2rem;
-}
-
-#home>p {
-    text-align: left;
-    padding: 0 20px;
-    font-size: 90%;
 }
 .read-more-button {
     display: flex;
@@ -127,6 +124,7 @@ main {
     text-align: center;
     margin: 1rem;
     border-radius: 2px;
+    cursor: pointer;
 
 
     
