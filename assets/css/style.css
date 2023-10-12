@@ -227,17 +227,12 @@ main {
         main {
             margin-top: 76px;
         }
-        .home {
+        #intro >div {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: auto;
         }
-        #w3-image {
-            width: 50%;
-        }
-        #home-p {
-            width: 50%;
-        }
+        
         #home-p {
             justify-content: flex-end;
             
