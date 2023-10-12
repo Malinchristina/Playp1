@@ -102,6 +102,7 @@ main {
     flex: 1 0 auto;
     margin-top: 102px;
 }
+/*Comment out background color in p 
 #color-p-home {
     background-color: #d8e1e73c;
     margin: 1.2rem;
@@ -110,6 +111,7 @@ main {
 #pos-color-home {
     padding: 8px 5px;
 }
+*/
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
     width: auto;
@@ -134,17 +136,20 @@ main {
     border-radius: 2px;
     cursor: pointer;  
 }
+
 /* About page */
 #h2-about {
     margin-bottom: 1.2rem;
 }
+
 #about-image1 {
     background: url(../images/lotushands.jpg) no-repeat center/cover;
     width: auto;
     height: 65vw;
     margin: 1.2rem;
-    border-radius: 2%;
+    border-radius: 2px;
 }
+/*Comment out background color in p 
 #color-p1-about {
     background-color: #d8e1e73c;
     margin: 1.2rem;
@@ -153,6 +158,7 @@ main {
 #pos-color-p1-about {
     padding: 8px 5px;
 }
+
 #color-p2-about {
     background-color: #d8e1e73c;
     margin: 1.2rem;
@@ -180,6 +186,7 @@ main {
 #pos-color-p4-about {
     padding: 8px 5px;
 }
+*/
 
 /* Footer */
 #footer-bar {
