@@ -101,7 +101,7 @@ main {
     /* Make space so footer is pushed down */
     flex: 1 0 auto;
     margin-top: 102px;
-}
+}  
 
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
@@ -227,14 +227,19 @@ main {
         main {
             margin-top: 76px;
         }
-        #intro >div {
+        #intro {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             width: auto;
         }
         
-        #home-p {
-            justify-content: flex-end;
+        #w3-image,
+        #home-p,
+        #home-p1 {
+            align-items: ;
+        }
+        #home-p1 {
             
         }
+        
 }
