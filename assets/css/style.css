@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 /* General styles */
@@ -144,6 +145,21 @@ main {
     border-radius: 2px;
 }
 /* Classes page */
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 1.2rem;
+    
+}
+table, th, td {
+    border: 1px solid #262713;
+    
+}
+#table >th {
+
+
+}
 
 
 /* Footer */
