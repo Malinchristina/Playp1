@@ -25,6 +25,7 @@ h2 {
     font-size: 130%;
     padding-top: 1rem;
 }
+
 p {
     text-align: left;
     padding: 0 20px;
@@ -101,7 +102,7 @@ main {
     /* Make space so footer is pushed down */
     flex: 1 0 auto;
     margin-top: 102px;
-}  
+}
 
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
@@ -110,11 +111,13 @@ main {
     margin: 1.2rem;
     border-radius: 2px;
 }
+
 .read-more-button {
     display: flex;
     justify-content: flex-end;
 
 }
+
 #read-more-button {
     background-color: #A37850;
     border: none;
@@ -125,7 +128,7 @@ main {
     text-align: center;
     margin: 1rem;
     border-radius: 2px;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 /* About page */
@@ -140,6 +143,7 @@ main {
     margin: 1.2rem;
     border-radius: 2px;
 }
+/* Classes page */
 
 
 /* Footer */
@@ -160,6 +164,7 @@ main {
 .stack-top {
     flex-direction: column;
 }
+
 #footer-p {
     text-align: center;
 }
@@ -207,11 +212,12 @@ main {
         line-height: 60px;
         margin: 0 0.5rem;
     }
+
     /* Main */
     main {
         margin-top: 136px;
     }
-    
+
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -223,23 +229,15 @@ main {
     header a {
         text-align: left;
     }
+
     /* Main */
-        main {
-            margin-top: 76px;
-        }
-        #intro {
-            display: flex;
-            flex-direction: row;
-            width: auto;
-        }
-        
-        #w3-image,
-        #home-p,
-        #home-p1 {
-            align-items: ;
-        }
-        #home-p1 {
-            
-        }
-        
+    main {
+        margin-top: 76px;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
 }
