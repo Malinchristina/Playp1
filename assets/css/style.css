@@ -249,9 +249,22 @@ table, th, td {
         margin-top: 76px;
     }
 
-    #intro {
+    .intro {
         display: flex;
         flex-direction: row;
-        width: auto;
+        margin: 2.4rem;
     }
+   
+    #w3-image {
+        width: 45%;
+        height: 45%;
+    }
+    #home-p {
+        margin-top: 5rem;
+        margin-right: 5rem;
+    }
+    .read-more-button {
+        margin-right: 1rem;
+    }
+
 }
