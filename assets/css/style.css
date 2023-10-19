@@ -114,7 +114,10 @@ main {
     width: auto;
     height: 65vw;
     margin: 1.2rem;
-    border-radius: 2px;
+}
+p > a {
+    color: #A37850;
+    border-bottom: #A37850;
 }
 
 .read-more-button {
@@ -148,6 +151,23 @@ main {
     margin: 1.2rem;
     border-radius: 2px;
 }
+#h3-about-breathwork {
+    padding: 10px 20px;
+    font-size: 90%;
+    background-color: #A37850;
+    color: #ffffff;
+    margin: 0 1.2rem;
+    border-radius: 2px;
+    text-align: center;   
+}
+
+#h3-tranings {
+    padding: 0 20px;
+    text-align: center;
+    color: #A37850;
+    
+}
+
 /* Classes page */
 table {
     width: 100%;
