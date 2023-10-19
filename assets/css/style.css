@@ -323,19 +323,22 @@ table, th, td {
     main {
         margin-top: 76px;
     }
+    #home > h2 {
+        padding-top: 3rem;
+    }
 
-    .intro {
+    #intro {
         display: flex;
         flex-direction: row;
         margin: 2.4rem;
     }
    
     #w3-image {
-        width: 45%;
-        height: 45%;
+        width: 130%;
+        height: 36vw;
     }
     #home-p {
-        margin-top: 5rem;
+        margin-top: 11rem;
         margin-right: 5rem;
     }
     .read-more-button {
