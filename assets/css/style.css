@@ -167,6 +167,9 @@ p > a {
     color: #A37850;
     
 }
+#last-p-about {
+    margin-bottom: 35px;
+}
 
 /* Classes page */
 table {
