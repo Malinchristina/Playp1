@@ -103,7 +103,11 @@ main {
     /* Make space so footer is pushed down */
     flex: 1 0 auto;
     margin-top: 102px;
+    /* Enable flex properties for child elements */
+        display: flex;
+        flex-direction: column;
 }
+   
 
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
@@ -197,6 +201,9 @@ table, th, td {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    #menu a:hover {
+            border-bottom: 1px solid #D8E1E7;
+        }
     header a {
         text-align: left;
     }
@@ -236,6 +243,7 @@ table, th, td {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+    /* Header */
     #menu a:hover {
         border-bottom: 1px solid #D8E1E7;
     }
@@ -266,5 +274,5 @@ table, th, td {
     .read-more-button {
         margin-right: 1rem;
     }
-
+    
 }
