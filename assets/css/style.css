@@ -25,12 +25,13 @@ h2 {
     margin: 0 5px 0 5px;
     font-size: 130%;
     padding-top: 1rem;
+    line-height: 1.6;
 }
 
 p {
     text-align: left;
     padding: 0 20px;
-    font-size: 90%;
+    line-height: 1.6;
 }
 
 
@@ -186,6 +187,13 @@ table {
 table, th, td {
     border: 1px solid #262713;
     
+}
+#classes-image {
+    background: url(../images/goddespose.jpg) no-repeat center/cover;
+    width: auto;
+    height: 65vw;
+    margin: 1.2rem;
+    border-radius: 2px;
 }
 
 /* Contact page */
