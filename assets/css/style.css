@@ -206,6 +206,13 @@ table, th, td {
 #email-address {
     padding: 20px 0;
     margin-left: 20px;
+    color: #A37850;
+    
+}
+#email-address > a {
+    color: #000000;
+    text-decoration: none;
+    margin: 4px;
 }
 #contact-form {
     padding: 20px 10px 0 10px;
