@@ -120,10 +120,6 @@ p > a {
     color: #A37850;
     border-bottom: #A37850;
 }
-#submit-button {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .read-more-button {
     display: flex;
@@ -231,8 +227,12 @@ table, th, td {
     
 }
 .radio-button {
-    padding: 0 20px;
-    
+    padding: 0 20px; 
+}
+
+#submit-button {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .submit-button {
@@ -246,8 +246,8 @@ table, th, td {
     margin: 1rem 0;
     border-radius: 2px;
     cursor: pointer;
-    
 }
+
 /* Footer */
 
 .footer-items {
