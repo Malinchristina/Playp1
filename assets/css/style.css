@@ -197,10 +197,15 @@ table, th, td {
 }
 
 /* Contact page */
+/*
 #h3-contact {
     padding: 20px 0;
     text-align: center;
     color: #A37850;
+}*/
+#email-address {
+    padding: 20px 0;
+    margin-left: 20px;
 }
 #contact-form {
     padding: 20px 10px 0 10px;
