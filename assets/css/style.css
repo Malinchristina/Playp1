@@ -18,6 +18,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    color: #D8E1E7;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #A37850;
@@ -26,6 +36,11 @@ h2 {
     font-size: 130%;
     padding-top: 1rem;
     line-height: 1.6;
+}
+h3 {
+    padding: 0 20px;
+    text-align: center;
+    color: #A37850;
 }
 
 p {
@@ -48,13 +63,12 @@ header {
     align-items: baseline;
 }
 
+
 header a {
     text-decoration: none;
-    font-family: 'Cinzel', serif;
     color: #D8E1E7;
-    text-align: center;
-    width: 100%;
     letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
 }
 
 #menu {
@@ -95,7 +109,7 @@ nav {
 }
 
 .nav-bar-toggle-label {
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #D8E1E7;
 }
 
@@ -140,6 +154,27 @@ p > a {
     cursor: pointer;
 }
 
+.testimonials-section >h3{
+    padding-top: 20px;
+}
+#testimonial-1 {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.color {
+    background-color: #D8E1E7;
+    padding: 5px
+}
+#testimonial-2 {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.citer-1 {
+    text-align: end;
+    padding: 10px 20px;
+}
+
 /* About page */
 #h2-about {
     margin-bottom: 1.2rem;
@@ -162,12 +197,6 @@ p > a {
     text-align: center;   
 }
 
-#h3-tranings {
-    padding: 0 20px;
-    text-align: center;
-    color: #A37850;
-    
-}
 #last-p-about {
     margin-bottom: 35px;
 }
@@ -255,10 +284,8 @@ table, th, td {
     text-align: center;
     background-color: #818A79;
     color: #D8E1E7;
-    font-size: 80%;
     width: 100%;
     padding: 15px 0 4px 0;
-    width: 100%;
 }
 
 #footer-p {
@@ -267,7 +294,7 @@ table, th, td {
 
 .footer-bar-social {
     margin: 5px;
-    font-size: 120%;
+    font-size: 160%;
 }
 .footer-bar-social a {
     color: #D8E1E7;
@@ -314,7 +341,9 @@ table, th, td {
     main {
         margin-top: 136px;
     }
-
+    
+    /* Footer */
+    
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -353,5 +382,7 @@ table, th, td {
     .read-more-button {
         margin-right: 1rem;
     }
+    /* Footer */
+
     
 }
