@@ -229,7 +229,8 @@ p > a {
 #bw-video {
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 #last-p-about {
