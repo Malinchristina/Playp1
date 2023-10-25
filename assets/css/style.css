@@ -379,8 +379,11 @@ table, th, td {
         margin-top: 136px;
     }
     
-    /* Footer */
-    
+    /* Footer 
+    #footer-bar {
+        display: flex;
+        justify-content: center;
+    } */
 }
 
 /* Media query: laptops and desktops (992px and up) */
