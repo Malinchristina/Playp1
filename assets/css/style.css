@@ -211,7 +211,7 @@ p > a {
 }
 
 #about-image1 {
-    background: url(../images/lotushands.jpg) no-repeat center/cover;
+    background: url(../images/eaglearms.jpg) no-repeat center/cover;
     width: auto;
     height: 65vw;
     margin: 1.2rem;
@@ -225,6 +225,11 @@ p > a {
     margin: 0 1.2rem;
     border-radius: 2px;
     text-align: center;   
+}
+#bw-video {
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
 }
 
 #last-p-about {
