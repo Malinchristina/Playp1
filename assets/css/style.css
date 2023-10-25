@@ -25,7 +25,7 @@ h1 {
     text-align: center;
     width: 100%;
     letter-spacing: 1px;
-    font-size: 1.2rem;
+    font-size: 130%;
 }
 
 h2 {
@@ -53,7 +53,7 @@ p {
 /* Header */
 header {
     background-color: #818A79;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -117,19 +117,45 @@ nav {
 main {
     /* Make space so footer is pushed down */
     flex: 1 0 auto;
-    margin-top: 102px;
+    margin-top: 50px;
     /* Enable flex properties for child elements */
         display: flex;
         flex-direction: column;
 }
    
-
+/*
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
     width: auto;
     height: 65vw;
     margin: 1.2rem;
+}*/
+#home {
+    height: 600px;
+    width: 100%;
+    background: url("../images/lotushands.jpg") no-repeat center center/cover;
+    position: relative;
+  }
+#hero-test {
+    background-color: rgba(216, 225, 231, .9);
+    font-size: 105%;
+    width: 100%;
+    min-height: 80px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
+#testh2,
+#testh3 {
+    color: #A37850;
+    text-align: center;
+}
+#testh3 {
+    font-size: 100%;
+}
+#intro-test {
+    margin-top: 20px;
+}
+
 p > a {
     color: #A37850;
     border-bottom: #A37850;
