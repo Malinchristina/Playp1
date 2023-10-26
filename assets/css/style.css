@@ -311,6 +311,12 @@ tr {
     font-size: 100%;
 }
 
+#book-class {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
 #class-image {
     background: url(../images/groupofpeople.jpg) no-repeat center/cover;
     width: auto;
