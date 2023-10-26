@@ -264,13 +264,18 @@ p>a {
 }
 
 /* Classes page */
-table {
-    background-color: #D8E1E7;
-    margin-top: 1.2rem;
-    width: 89vw;
-    margin: 20px;
-    border-radius: 2px;
 
+#table-div {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgb(163, 120, 80, .3);
+    width: 89%;
+    overflow: hidden;
+    margin-top: 20px;
 }
 
 caption,
@@ -283,6 +288,20 @@ td {
 caption,
 th {
     text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+caption {
+    background: #A37850;
+    line-height: 1.6;
+    color: #ffffff;
+}
+th {
+    background: rgb(163, 120, 80, .4);
+}
+tr:nth-of-type(2n) {
+    background: rgb(163, 120, 80, .3);
+
 }
 
 #classes-image {
