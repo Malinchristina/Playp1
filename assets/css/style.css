@@ -153,6 +153,7 @@ main {
 #testh3 {
     color: #A37850;
     text-align: center;
+    padding-top: 0;
 }
 #testh3 {
     font-size: 100%;
