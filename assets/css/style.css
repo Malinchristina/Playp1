@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 /* General styles */
@@ -37,6 +36,7 @@ h2 {
     padding-top: 1rem;
     line-height: 1.6;
 }
+
 h3 {
     padding: 0 20px;
     text-align: center;
@@ -50,6 +50,7 @@ p {
     padding: 0 20px;
     line-height: 1.6;
 }
+
 .hidden-heading {
     display: none;
 }
@@ -124,10 +125,10 @@ main {
     flex: 1 0 auto;
     margin-top: 50px;
     /* Enable flex properties for child elements */
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-   
+
 /*
 #w3-image {
     background: url(../images/w3.jpg) no-repeat center/cover;
@@ -140,7 +141,8 @@ main {
     width: 100%;
     background: url("../images/lotushands.jpg") no-repeat center center/cover;
     position: relative;
-  }
+}
+
 #hero-test {
     background-color: rgba(216, 225, 231, .9);
     font-size: 105%;
@@ -149,20 +151,23 @@ main {
     padding: 10px 20px;
     margin-top: 20px;
 }
+
 #testh2,
 #testh3 {
     color: #A37850;
     text-align: center;
     padding-top: 0;
 }
+
 #testh3 {
     font-size: 100%;
 }
+
 #intro-test {
     margin-top: 20px;
 }
 
-p > a {
+p>a {
     color: #A37850;
     border-bottom: #A37850;
 }
@@ -173,6 +178,20 @@ p > a {
 
 }
 
+#read-more {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#read-more>a {
+    color: #A37850;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/*
 #read-more-button {
     background-color: #A37850;
     border: none;
@@ -183,11 +202,12 @@ p > a {
     margin: 1rem;
     border-radius: 2px;
     cursor: pointer;
-}
+}*/
 
-.testimonials-section >h3{
+#testimonials-section>h3 {
     padding-top: 20px;
 }
+
 #testimonial-1 {
     background-color: #ffffff;
     padding: 20px 0;
@@ -197,10 +217,12 @@ p > a {
     background-color: #D8E1E7;
     padding: 5px
 }
+
 #testimonial-2 {
     background-color: #ffffff;
     padding: 20px 0;
 }
+
 .citer-1 {
     text-align: end;
     padding: 10px 20px;
@@ -218,6 +240,7 @@ p > a {
     margin: 1.2rem;
     border-radius: 50%;
 }
+
 #h3-about-breathwork {
     padding: 10px 20px;
     font-size: 90%;
@@ -225,8 +248,9 @@ p > a {
     color: #ffffff;
     margin: 0 1.2rem;
     border-radius: 2px;
-    text-align: center;   
+    text-align: center;
 }
+
 #bw-video {
     overflow: hidden;
     position: relative;
@@ -241,16 +265,26 @@ p > a {
 
 /* Classes page */
 table {
-    width: 100%;
-    text-align: center;
-    border-collapse: collapse;
+    background-color: #D8E1E7;
     margin-top: 1.2rem;
-    
+    width: 89vw;
+    margin: 20px;
+    border-radius: 2px;
+
 }
-table, th, td {
-    border: 1px solid #262713;
-    
+
+caption,
+th,
+td {
+    padding: 0.7rem;
+
 }
+
+caption,
+th {
+    text-align: left;
+}
+
 #classes-image {
     background: url(../images/goddespose.jpg) no-repeat center/cover;
     width: auto;
@@ -270,19 +304,22 @@ table, th, td {
     padding: 20px 0;
     margin-left: 20px;
     color: #A37850;
-    
+
 }
-#email-address > a {
+
+#email-address>a {
     color: #000000;
     text-decoration: none;
     margin: 4px;
 }
+
 #contact-form {
     padding: 20px 10px 0 10px;
     background-color: #D8E1E7;
     border-radius: 2px;
     margin: 20px;
 }
+
 .text-input {
     border-radius: 4px;
     width: 100%;
@@ -290,10 +327,11 @@ table, th, td {
     border: 1px solid #A37850;
     margin: 5px 0 20px 0;
     padding: 0 5px;
-    
+
 }
+
 .radio-button {
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 #submit-button {
@@ -334,6 +372,7 @@ table, th, td {
     margin: 5px;
     font-size: 160%;
 }
+
 .footer-bar-social a {
     color: #D8E1E7;
 }
@@ -343,8 +382,9 @@ table, th, td {
 
     /* Header */
     #menu a:hover {
-            border-bottom: 1px solid #D8E1E7;
-        }
+        border-bottom: 1px solid #D8E1E7;
+    }
+
     header a {
         text-align: left;
     }
@@ -379,7 +419,7 @@ table, th, td {
     main {
         margin-top: 136px;
     }
-    
+
     /* Footer 
     #footer-bar {
         display: flex;
@@ -389,6 +429,7 @@ table, th, td {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #D8E1E7;
@@ -402,7 +443,8 @@ table, th, td {
     main {
         margin-top: 76px;
     }
-    #home > h2 {
+
+    #home>h2 {
         padding-top: 3rem;
     }
 
@@ -411,19 +453,22 @@ table, th, td {
         flex-direction: row;
         margin: 2.4rem;
     }
-   
+
     #w3-image {
         width: 130%;
         height: 36vw;
     }
+
     #home-p {
         margin-top: 11rem;
         margin-right: 5rem;
     }
+
     .read-more-button {
         margin-right: 1rem;
     }
+
     /* Footer */
 
-    
+
 }
