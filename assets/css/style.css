@@ -610,6 +610,27 @@ tr {
         margin-right: 1rem;
     }
 
+    /* Contact page*/
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact >div {
+        align-self: center;
+    }
+
+    #contact-div {
+        display: flex;
+        justify-content: center;
+    }    
+    
+    #contact-form {
+        width: 50%;
+        }
+
     /* Footer */
 
 
