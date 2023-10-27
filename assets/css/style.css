@@ -546,6 +546,15 @@ tr {
         margin-bottom: 20px;
     }
 
+    /* Contact page*/
+
+    #contact-div {
+        display: flex;
+        justify-content: center;
+    }
+    #contact-form {
+        width: 75%;
+    }
 
 
     /* Footer 
@@ -575,6 +584,7 @@ tr {
     main {
         margin-top: 76px;
     }
+    /* Home page */
 
     #home>h2 {
         padding-top: 3rem;
