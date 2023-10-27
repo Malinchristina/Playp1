@@ -269,6 +269,14 @@ iframe {
 
 /* Classes page */
 
+#class-image {
+    background: url(../images/groupofpeoplecopy.jpg) no-repeat center/cover;
+    width: auto;
+    height: 60vw;
+    margin: 1.2rem;
+    border-radius: 2px;
+}
+
 #table-div {
     display: flex;
     justify-content: center;
@@ -327,13 +335,6 @@ tr {
     padding-right: 20px;
 }
 
-#class-image {
-    background: url(../images/groupofpeople.jpg) no-repeat center/cover;
-    width: auto;
-    height: 89vw;
-    margin: 1.2rem;
-    border-radius: 50%;
-}
 
 /* Contact page */
 /*
