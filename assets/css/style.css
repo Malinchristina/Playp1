@@ -129,13 +129,6 @@ main {
     flex-direction: column;
 }
 
-/*
-#w3-image {
-    background: url(../images/w3.jpg) no-repeat center/cover;
-    width: auto;
-    height: 65vw;
-    margin: 1.2rem;
-}*/
 #home {
     height: 600px;
     width: 100%;
@@ -192,18 +185,6 @@ p>a {
     text-decoration: none;
 }
 
-/*
-#read-more-button {
-    background-color: #A37850;
-    border: none;
-    color: #ffffff;
-    padding: 0.6rem 1.2rem;
-    text-decoration: none;
-    text-align: center;
-    margin: 1rem;
-    border-radius: 2px;
-    cursor: pointer;
-}*/
 
 #testimonials-section>h3 {
     padding-top: 20px;
@@ -461,25 +442,27 @@ tr {
         flex-direction: column;
         width: 100%;
     }
+
     #about1 >div,
     #about2 >div,
     #about3 >div {
         width: 75%;
     }
+
     #about3 {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
     #about3 > div {
         text-align: end;
         align-self: flex-end;
         
     }
-    #about-and-image {
-        display: flex;
-        flex-direction: column;
-    }
+
+
+    
 
     
 
