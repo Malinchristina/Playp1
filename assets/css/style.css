@@ -464,49 +464,69 @@ tr {
     }
 
     /* About */
+    
+    #about-section {
+        margin: 0 10vw 0 10vw;
+    }
 
     #about1,
-    #about2 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #about1>div,
-    #about3>div {
-        width: 75%;
-    }
-
+    #about2,
     #about3 {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-
+/*
+    #about1>div,
+    #about2>div,
+    #about3>div{
+        width: 75%;
+    }*/
+    
+    #about3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #about1>div,
+    #about2>div,
     #about3>div {
         text-align: end;
-        align-self: flex-end;
-
-    }
-
+        align-self: center;
+    }   
+    
     #about-and-image {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        
+        width: 100%;        
     }
+
     #image-div{
         width: 60%;
     }
+
     #about-image1 {
         width: 40vw;
         height: 40vw;
+        border-radius: 2px;
     }
    
     #about4{
         align-self: center;
     }
 
+    #bw-p {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        height: 38vw;
+    }
+    #trainings {
+        margin: 0 10vw 0 10vw;
+    }
 
 
 
