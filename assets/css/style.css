@@ -444,18 +444,46 @@ tr {
     #logo {
         font-size: 2rem;
         line-height: 1.2;
-        margin: 0 0.5rem;
+        margin: 0 1rem;
         text-align: left;
     }
-
+    
     /* Main */
     main {
         margin-top: 75px;
     }
-    #about {
+
+    /* About */
+
+    #about1,
+    #about2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #about1 >div,
+    #about2 >div,
+    #about3 >div {
+        width: 75%;
+    }
+    #about3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #about3 > div {
+        text-align: end;
+        align-self: flex-end;
+        
+    }
+    #about-and-image {
         display: flex;
         flex-direction: column;
     }
+
+    
+
+    
 
     /* Footer 
     #footer-bar {
@@ -471,9 +499,13 @@ tr {
     #menu a:hover {
         border-bottom: 1px solid #D8E1E7;
     }
-
+    
     header a {
         text-align: left;
+    }
+    
+    #logo {
+        font-size: 2.5rem;
     }
 
     /* Main */
