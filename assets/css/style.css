@@ -442,14 +442,19 @@ tr {
     }
 
     #logo {
-        font-size: 260%;
-        line-height: 60px;
+        font-size: 2rem;
+        line-height: 1.2;
         margin: 0 0.5rem;
+        text-align: left;
     }
 
     /* Main */
     main {
-        margin-top: 136px;
+        margin-top: 75px;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
     }
 
     /* Footer 
