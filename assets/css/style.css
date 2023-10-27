@@ -129,6 +129,13 @@ main {
     flex-direction: column;
 }
 
+/*
+#w3-image {
+    background: url(../images/w3.jpg) no-repeat center/cover;
+    width: auto;
+    height: 65vw;
+    margin: 1.2rem;
+}*/
 #home {
     height: 600px;
     width: 100%;
@@ -185,6 +192,18 @@ p>a {
     text-decoration: none;
 }
 
+/*
+#read-more-button {
+    background-color: #A37850;
+    border: none;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}*/
 
 #testimonials-section>h3 {
     padding-top: 20px;
@@ -212,9 +231,11 @@ p>a {
 
 /* About page */
 
+
+
 #about-image1 {
-    background: url(../images/eaglearms.jpg) no-repeat center/cover;
-    width: auto;
+    background: url(../images/eaglearmscopy.jpg) no-repeat center/cover;
+    width: 86vw;
     height: 86vw;
     margin: 1.2rem;
     border-radius: 50%;
@@ -228,6 +249,10 @@ p>a {
     margin: 0 1.2rem;
     border-radius: 2px;
     text-align: center;
+}
+iframe {
+    width: 80%;
+    height: auto;
 }
 
 #bw-video {
@@ -277,17 +302,21 @@ th {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 caption {
     background: #ccdbe6;
     line-height: 1.6;
 }
+
 th {
     background: #D8E1E7;
 }
+
 tr:nth-of-type(2n) {
     background: rgb(216, 225, 231, .5);
 
 }
+
 tr {
     font-size: 100%;
 }
@@ -428,7 +457,7 @@ tr {
         margin: 0 1rem;
         text-align: left;
     }
-    
+
     /* Main */
     main {
         margin-top: 75px;
@@ -443,9 +472,8 @@ tr {
         width: 100%;
     }
 
-    #about1 >div,
-    #about2 >div,
-    #about3 >div {
+    #about1>div,
+    #about3>div {
         width: 75%;
     }
 
@@ -455,18 +483,32 @@ tr {
         width: 100%;
     }
 
-    #about3 > div {
+    #about3>div {
         text-align: end;
         align-self: flex-end;
+
+    }
+
+    #about-and-image {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
         
+    }
+    #image-div{
+        width: 60%;
+    }
+    #about-image1 {
+        width: 40vw;
+        height: 40vw;
+    }
+   
+    #about4{
+        align-self: center;
     }
 
 
-    
 
-    
-
-    
 
     /* Footer 
     #footer-bar {
@@ -482,11 +524,11 @@ tr {
     #menu a:hover {
         border-bottom: 1px solid #D8E1E7;
     }
-    
+
     header a {
         text-align: left;
     }
-    
+
     #logo {
         font-size: 2.5rem;
     }
