@@ -432,6 +432,13 @@ tr {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Set screen to 95% not to overflow for scrolling 
+    body {
+        width: 95%;
+
+        HOW?!
+    }*/ 
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #D8E1E7;
