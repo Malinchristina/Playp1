@@ -654,7 +654,7 @@ tr {
 
     /* Contact page*/
 
-    .contact {
+   /* .contact {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -667,11 +667,15 @@ tr {
     #contact-div {
         display: flex;
         justify-content: center;
-    }    
+    }  */  
     
+    #contact-p1 {
+        margin-right: 6px;
+    }
+
     #contact-form {
         width: 50%;
-        }
+    }
 
     /* Footer */
 
