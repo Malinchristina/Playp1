@@ -605,8 +605,6 @@ tr {
         height: 77%;
     }
 
-    /* Contact page */
-
     #test-for-992px {
         display: flex;
         flex-direction: row;
@@ -616,16 +614,29 @@ tr {
         display: flex;
         flex-direction: column;
     }
+    #table-div {
+        order: -1;
+    }
 
     #class-image {
         width: 47vw;
-        height: 24vw;
+        height: 35vw;
+        order: 2;
     }
+
     #book-text {
-        width: 40vw;
+        width: 44vw;
+        margin-top: 1.6vw;
+    }
+
+    #test-book-button {
+        justify-content: center;
     }
     
-    #contact-p1 {
+
+     /* Contact page */
+    
+     #contact-p1 {
         margin-right: 6px;
     }
 
