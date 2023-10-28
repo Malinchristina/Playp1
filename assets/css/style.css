@@ -404,6 +404,15 @@ tr {
     cursor: pointer;
 }
 
+/* Sign up landing page and 404 */
+.return-to-home {
+    color: #A37850;
+    text-transform: uppercase;
+}
+
+.center-text {
+    text-align: center;
+}
 /* Footer */
 
 .footer-items {
