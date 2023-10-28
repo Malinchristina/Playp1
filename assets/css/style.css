@@ -547,9 +547,10 @@ tr {
     }
 
     #about-image1 {
-        width: 40vw;
-        height: 40vw;
+        width: 37vw;
+        height: 39vw;
         border-radius: 2px;
+        margin: 0.3rem 0.3rem 1rem 1rem;
     }
    
     #about4{
@@ -625,7 +626,7 @@ tr {
         margin-top: 76px;
     }
     /* Home page */
-
+/*
     #home>h2 {
         padding-top: 3rem;
     }
@@ -638,10 +639,17 @@ tr {
     #home-p {
         margin-top: 11rem;
         margin-right: 5rem;
-    }
+    }*/
 
     .read-more-button {
         margin-right: 1rem;
+    }
+
+    /* About page */
+    #about-image1 {
+        width: 42vw;
+        height: 28vw;
+        margin: 0.3rem 1.2rem 1.2rem 1.2rem;
     }
 
     /* Contact page*/
