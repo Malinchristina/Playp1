@@ -264,9 +264,9 @@ iframe {
 table {
     border-collapse: collapse;
     background: rgb(216, 225, 231, .3);
-    width: 89%;
+    width: 94%;
     overflow: hidden;
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 2px;
 }
 
@@ -309,6 +309,11 @@ tr {
 }
 
 /*Style a element as button*/
+
+#test-book-button {
+    display: flex;
+    justify-content: flex-end;
+}
 
 #book-class {
     background-color: #A37850;
@@ -593,6 +598,32 @@ tr {
         height: 28vw;
         margin: 0.3rem 1.2rem 1.2rem 1.2rem;
     }
+
+    /* Classes page */
+    table {
+        width: 60%;
+        height: 77%;
+    }
+
+    /* Contact page */
+
+    #test-for-992px {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #test-special {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #class-image {
+        width: 47vw;
+        height: 24vw;
+    }
+    #book-text {
+        width: 40vw;
+    }
     
     #contact-p1 {
         margin-right: 6px;
@@ -601,8 +632,5 @@ tr {
     #contact-form {
         width: 50%;
     }
-
-    /* Footer */
-
 
 }
