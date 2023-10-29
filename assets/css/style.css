@@ -620,8 +620,8 @@ tr {
     }
     
     #class-image {
-        width: 47vw;
-        height: 35vw;
+        width: 92%;
+        height: 80%;
         order: 2;
         justify-content: flex-start;
         align-self: flex-end;
