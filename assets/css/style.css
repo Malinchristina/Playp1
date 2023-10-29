@@ -604,6 +604,10 @@ tr {
         width: 60%;
         height: 77%;
     }
+    #table-div {
+        margin-bottom: 0;
+        align-self: flex-end;
+    }
 
     #test-for-992px {
         display: flex;
@@ -614,14 +618,13 @@ tr {
         display: flex;
         flex-direction: column;
     }
-    #table-div {
-        order: -1;
-    }
-
+    
     #class-image {
         width: 47vw;
         height: 35vw;
         order: 2;
+        justify-content: flex-start;
+        align-self: flex-end;
     }
 
     #book-text {
@@ -630,7 +633,7 @@ tr {
     }
 
     #test-book-button {
-        justify-content: center;
+        margin-right: 20px;
     }
     
 
