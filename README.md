@@ -2,7 +2,7 @@
 
 Breath Body Spirit is a website for people that want to attend yoga and/or breathwork classes in Gothenburg, Sweden. It targets those who are interested in yoga and wellness but also in personal development.
 
-They users will find information about the yoga and breathwork teacher and testimonials, schedule and how to book a class.
+They users will find information about the yoga and breathwork teacher, testimonials, schedule and how to book a class.
 
 ## Features
 
@@ -17,20 +17,32 @@ They users will find information about the yoga and breathwork teacher and testi
 ### Contact
 
 ## Testing
-Markup: * All external links open in a new window and point correct.
+* All external links open in a new window and point correct.
 * All internal links point correct.
-* All the buttons act as they supposed to
-* It is possible to play the video both on the website and to open it on YouTube
-* All the pictures are loading
-* The website works on Chrome, Firefox, Microsoft Edge and different mobile phones (tried at least 5 mobile phones)
-* The website is fully responsive
-* The form works as intended. The user can not join without a name or an email address
+* All buttons act as they supposed to.
+* Video plays on the website and also points to youtube.
+* All the pictures are loading.
+* The website works in Chrome, Safari, Firefox. 
+* The website works on mobile phones Iphone, Samsung.
+* The website works on tablet, Samsung.
+* The website is fully responsive.
+* The form works as intended. The user can not join without name, email address or ticking an agree button.
 
 ### Validator Testing
 
 ## Deployment
 
 ## Credits
+### Coding instructions
+* Inspiriation from Love Running project.
+* [Kevin Powell youtube channel](https://www.youtube.com/@KevinPowell "Kevin Powell").
+* [w3schools](https://www.w3schools.com/ "w3shools").
+* [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks").
+* 404 page and signuplandingingpage from mentor Gareth McGirr [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/index.html "Tacos Travels").
+* Flexbox:
+  * [Dave Geddes](https://mastery.games/flexboxzombies/chapter/2/level/22 "Flexbox Zombies").
+  * [Flexbox Froggy](https://flexboxfroggy.com/ "Flexbox Froggy").
+  * [Dee Mc](https://www.youtube.com/@IonaFrisbee "Dee Mc")
 
 ### Content
 
