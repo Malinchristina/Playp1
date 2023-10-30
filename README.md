@@ -9,6 +9,7 @@ The pite can be found at [Breath Body Spirit](https://malinchristina.github.io/p
 ## Features
 
 ### Navigation bar
+[picture alt](docs/readme_images/menu.jpg)
 
 ### Footer
 
