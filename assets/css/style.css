@@ -406,25 +406,29 @@ tr {
 #footer-p {
     text-align: center;
 }
-
+/*
 .footer-bar-social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
     font-size: 160%;
+}*/
+
+#footer-bar-social {
+    font-size: 160%;
 }
 
-.footer-bar-social a {
+#footer-bar-social >a {
     color: #D8E1E7;
 }
 
 #footer-facebook {
-    margin: 10px;
+    margin: 5px;
 }
 
 #footer-instagram {
-    margin: 10px;
+    margin: 5px;
 }
 
 
