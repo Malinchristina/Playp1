@@ -47,7 +47,7 @@ The pite can be found at [Breath Body Spirit](https://malinchristina.github.io/p
   * [Daisy McGirr](https://www.youtube.com/@IonaFrisbee "Dee Mc")
 
 ### Content
-All content is owned by Breath Body Spirit AB, including photos.
+All content is owned by Breath Body Spirit AB, including photos and video.
 
 ### Media
 Photos taken by [Isla Grossi](https://www.islagrossi.com/ "Isla Grossi photography")
