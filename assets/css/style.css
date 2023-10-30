@@ -408,13 +408,25 @@ tr {
 }
 
 .footer-bar-social {
-    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
     font-size: 160%;
 }
 
 .footer-bar-social a {
     color: #D8E1E7;
 }
+
+#footer-facebook {
+    margin: 10px;
+}
+
+#footer-instagram {
+    margin: 10px;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -547,6 +559,7 @@ tr {
     #table {
         margin: 0 10vw 0 10vw;
     }
+    /*
     #table-div{
         margin-bottom: 20px;
     }
@@ -554,7 +567,7 @@ tr {
     .submit-button {
         font-size: 90%;
     }
-
+*/
     /* Contact page*/
 
     #contact-div {
