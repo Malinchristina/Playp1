@@ -4,6 +4,8 @@ Breath Body Spirit is a website for people that want to attend yoga and/or breat
 
 They users will find information about the yoga and breathwork teacher, testimonials, schedule and how to book a class.
 
+The pite can be found at [Breath Body Spirit](https://malinchristina.github.io/p1breathbodyspirit/index.html "Breath Body Spirit")
+
 ## Features
 
 ### Navigation bar
@@ -22,7 +24,7 @@ They users will find information about the yoga and breathwork teacher, testimon
 * All buttons act as they supposed to.
 * Video plays on the website and also points to youtube.
 * All the pictures are loading.
-* The website works in Chrome, Safari, Firefox. 
+* The website works in Chrome, Safari, Firefox.
 * The website works on mobile phones Iphone, Samsung.
 * The website works on tablet, Samsung.
 * The website is fully responsive.
@@ -34,16 +36,20 @@ They users will find information about the yoga and breathwork teacher, testimon
 
 ## Credits
 ### Coding instructions
-* Inspiriation from Love Running project.
-* [Kevin Powell youtube channel](https://www.youtube.com/@KevinPowell "Kevin Powell").
-* [w3schools](https://www.w3schools.com/ "w3shools").
-* [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks").
-* 404 page and signuplandingingpage from mentor Gareth McGirr [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/index.html "Tacos Travels").
+* Inspiriation from Love Running project
+* [Kevin Powell youtube channel](https://www.youtube.com/@KevinPowell "Kevin Powell")
+* [w3schools](https://www.w3schools.com/ "w3shools")
+* [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks")
+* 404 page and signuplandingingpage from mentor Gareth McGirr [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/index.html "Tacos Travels")
 * Flexbox:
-  * [Dave Geddes](https://mastery.games/flexboxzombies/chapter/2/level/22 "Flexbox Zombies").
-  * [Flexbox Froggy](https://flexboxfroggy.com/ "Flexbox Froggy").
-  * [Dee Mc](https://www.youtube.com/@IonaFrisbee "Dee Mc")
+  * [Dave Geddes](https://mastery.games/flexboxzombies/chapter/2/level/22 "Flexbox Zombies")
+  * [Flexbox Froggy](https://flexboxfroggy.com/ "Flexbox Froggy")
+  * [Daisy McGirr](https://www.youtube.com/@IonaFrisbee "Dee Mc")
 
 ### Content
+All content is owned by Breath Body Spirit AB, including photos.
 
 ### Media
+Photos taken by [Isla Grossi](https://www.islagrossi.com/ "Isla Grossi photography")
+
+Video shot by Nicholas Sosin and produced by [All My Friends Are Stars](https://www.allmyfriendsarestars.com/ "All My Friends Are Stars")
