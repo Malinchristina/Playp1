@@ -71,7 +71,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #D8E1E7;
+    color: #ffffff;
     letter-spacing: 1px;
     font-family: 'Cinzel', serif;
 }
@@ -280,10 +280,14 @@ caption,
 th,
 td {
     padding: 0.7rem;
-
 }
 
-caption,
+#classes-h3 {
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+}
+
 th {
     text-align: left;
     font-weight: 700;
@@ -389,7 +393,10 @@ tr {
 }
 
 .center-text {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 /* Footer */
 
